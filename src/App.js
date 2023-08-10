@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Import your custom CSS file
+import './App.css'; 
 import HospitalForm from './components/HospitalForm';
 import ICUForm from './components/ICUForm';
 

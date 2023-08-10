@@ -16,15 +16,11 @@ const HospitalForm = () => {
         <input type="text" id="pincode" className="input-field" placeholder="Enter Pincode" />
         <label htmlFor="state" className="label">Hospital State:</label>
         <select id="state" className="input-field">
-          {/* Options for states */}
         </select>
         <label htmlFor="city" className="label">Hospital City:</label>
         <select id="city" className="input-field">
-          {/* Options for cities */}
         </select>
       </div>
-      {/* ICU details section */}
-      {/* ... */}
     </div>
   );
 };

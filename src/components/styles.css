@@ -8,20 +8,17 @@
   color: #fff;
 }
 
-/* Target only direct .input-group children of .form-container */
 .form-container > .input-group {
   margin-bottom: 15px;
 }
 
-/* Target only .label inside .input-group */
 .input-group .label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #fff; /* White text color */
+  color: #fff; 
 }
 
-/* Target only .input-field inside .input-group */
 .input-group .input-field {
   width: 100%;
   padding: 8px;
@@ -81,7 +78,6 @@ h5 {
   margin: 10px 0;
 }
 
-/* Adjustments */
 .input-group.inline {
   display: flex;
   align-items: center;
@@ -89,7 +85,7 @@ h5 {
 
 .input-group.inline label {
   margin-right: 10px;
-  color: #fff; /* White text color */
+  color: #fff;
 }
 
 .input-group.inline input,
@@ -103,14 +99,12 @@ h5 {
 }
 
 .bed-section {
-  /* ... */
   display: flex;
-  flex-wrap: wrap; /* Wrap the items to the next line if needed */
-  justify-content: space-between; /* Space items evenly between flex container */
+  flex-wrap: wrap; 
+  justify-content: space-between; 
 }
 
 .input-row {
-  /* ... */
-  flex-basis: calc(33.33% - 10px); /* Divide container into 3 equal-width columns */
-  margin-right: 10px; /* Add a small gap between fields */
+  flex-basis: calc(33.33% - 10px); 
+  margin-right: 10px; 
 }
